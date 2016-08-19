@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "24"
     defaultConfig {
-        applicationId "com.wudi.ebpforl"
+        applicationId "com.hanchenli.ebpformm"
         minSdkVersion 21
         targetSdkVersion 21
         versionCode 3
@@ -20,7 +20,11 @@ android {
     }
 }
 
+repositories {
+    jcenter();
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('lib/XposedBridgeApi-20150213.jar')
+    provided 'de.robv.android.xposed:api:82'
 }

@@ -8,7 +8,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Exchange security bypass for lollipop" />
+            android:value="Exchange security bypass for Marshmallow" />
         <meta-data
             android:name="xposedminversion"
             android:value="60" />
